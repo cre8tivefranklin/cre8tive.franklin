@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(230, 230, 255);
+}
+.intro{
+  background: url('../icons/computer-icon.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
+  height: 500px;
+  z-index: 1;
+  /* margin-top: 300px; */
+  /* margin-bottom: -50px; */
+}
+.intro-text{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.intro-text{
+  font-size: 20px;
+}
+.web-apps{
+  heght: 500px;
+  margin-top: 25px;
+  z-index: 1;
+  text-align: center;
+}
+.calculator-app, .recipe-app, .calendar-app{
+  height: 100%;
+  background-color: rgb(220,220,245);
+  margin: 10px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.calc-btn{
+  margin:10px;
+}
+.op{
+  background-color: lightgrey;
+}
+.operators{
+  float:right;
+}
+.linkedin{
+  background-image:url('../icons/linkedin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+}
+.ig{
+  background-image:url('../icons/ig.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+}
