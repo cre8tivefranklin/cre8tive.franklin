@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cre8tive Services</title>
+    <title>Franklin Sami</title>
   </head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,14 +27,38 @@
       <div class='calculator-app col'>
         <h2>calculator</h2>
         <!-- research output tag -->
-        <output name="result"></output>
-        <input class='col'></input>
+
         <!-- find a way to display operators on the right hand side and a way to display vertically -->
-        <div class='operators'>
-          <button type="button" class="op calc-btn btn btn-info">Info</button>
-          <button type="button" class="op calc-btn btn btn-info">Info</button>
-          <button type="button" class="op calc-btn btn btn-info">Info</button>
-          <button type="button" class="op calc-btn btn btn-info">Info</button>
+        <div class='calculator-app'>
+          <output class="calc_out col"></output>
+          <div class='row'>
+            <button class='btn-info col'>Ac</button>
+            <button class='btn-info col'>+/-</button>
+            <button class='btn-info col'>%</button>
+          </div>
+          <div class='row'>
+            <button class='btn-info col'>7</button>
+            <button class='btn-info col'>8</button>
+            <button class='btn-info col'>9</button>
+            <button class='btn-secondary col'>-</button>
+          </div>
+          <div class='row'>
+            <button class='btn-info col'>4</button>
+            <button class='btn-info col'>5</button>
+            <button class='btn-info col'>6</button>
+            <button class='btn-secondary col'>/</button>
+          </div>
+          <div class='row'>
+            <button class='btn-info col'>1</button>
+            <button class='btn-info col'>2</button>
+            <button class='btn-info col'>3</button>
+            <button class='btn-secondary col'>X</button>
+          </div>
+          <div class='row'>
+            <button class='btn-info col'>0</button>
+            <button class='btn-info col'>.</button>
+            <button class='btn-info col'>=</button>
+          </div>
         </div>
       </div>
       <div class='recipe-app col'>
@@ -67,4 +91,5 @@
     </div>
   </div>
 
+  <script src='scripts/calculator.js'></script>
   </body>
