@@ -30,34 +30,34 @@
 
         <!-- find a way to display operators on the right hand side and a way to display vertically -->
         <div class='calculator-app'>
-          <output class="calc_out col"></output>
+          <output class="calc_out col" id='calc_out'></output>
           <div class='row'>
             <button class='btn-info col'>Ac</button>
             <button class='btn-info col'>+/-</button>
             <button class='btn-info col'>%</button>
           </div>
           <div class='row'>
-            <button class='btn-info col'>7</button>
-            <button class='btn-info col'>8</button>
-            <button class='btn-info col'>9</button>
-            <button class='btn-secondary col'>-</button>
+            <button class='btn-info col' id='seven'>7</button>
+            <button class='btn-info col' id='eight'>8</button>
+            <button class='btn-info col' id='nine'>9</button>
+            <button class='btn-secondary col' id='subtract'>-</button>
           </div>
           <div class='row'>
-            <button class='btn-info col'>4</button>
-            <button class='btn-info col'>5</button>
-            <button class='btn-info col'>6</button>
-            <button class='btn-secondary col'>/</button>
+            <button class='btn-info col' id='four'>4</button>
+            <button class='btn-info col' id='five'>5</button>
+            <button class='btn-info col' id='six'>6</button>
+            <button class='btn-secondary col' id='divide'>/</button>
           </div>
           <div class='row'>
-            <button class='btn-info col'>1</button>
-            <button class='btn-info col'>2</button>
-            <button class='btn-info col'>3</button>
-            <button class='btn-secondary col'>X</button>
+            <button class='btn-info col' id = 'one'>1</button>
+            <button class='btn-info col' id='two'>2</button>
+            <button class='btn-info col' id ='three'>3</button>
+            <button class='btn-secondary col' id='multiply'>X</button>
           </div>
           <div class='row'>
-            <button class='btn-info col'>0</button>
-            <button class='btn-info col'>.</button>
-            <button class='btn-info col'>=</button>
+            <button class='btn-info col' id='zero'>0</button>
+            <button class='btn-info col' id='decimal'>.</button>
+            <button class='btn-info col' id='equals'>=</button>
           </div>
         </div>
       </div>
@@ -91,5 +91,7 @@
     </div>
   </div>
 
-  <script src='scripts/calculator.js'></script>
+  <script src='scripts/calculator.js'>
+
+  </script>
   </body>
