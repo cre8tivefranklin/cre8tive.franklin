@@ -1,0 +1,40 @@
+function A(){
+	function flavor_input(){
+		var prompt_flavor = input('What kind of flavor(s) do you enjoy?')
+		var prompt_texture = input('What kind of texture do you enjoy?')
+		var prompt_nutrition = input('What kind of nutrition do you need?')
+
+
+		var flavor = ['salty','sweet','bitter','zesty','tart','spicy','juicy','bland',
+		'plain',]
+		var texture = ['chewy','tender','flaky','hard','soft','moist','dry']
+//nutrtion correlates directly with flavor in many cases
+		var nutrition = ['protein','sodium','magnesium','potassium','sugar','citrus',]
+
+//array of the different types proteins are stored in protein index
+		var nutrtion[0] = ['gluten','whey','soy']
+
+//food_molecules stores objects which are basically the molecules of the food
+//and the value assigned are the nutrients
+//found inside these molecules
+		var food_pigment_molecules = {
+			chlorophyl: nutrition[2]
+			flavonoid: 'anthocyanin','anthoxanthin'
+			carotenoid:
+			betalaines:	
+		}
+//veggie family is the variable array that specifies the types of food such as alliums, brassica, etc
+		var veggie_family = ['alliums','brassica']
+
+//alliums is indexed below and veggies belonging to this groupo are stored within an array		
+		var veggie_family[0] = ['chives','garlic','leeks','onions','shallots']
+		
+//brassica is indexed below and veggies belonging to this group are stored within an array
+		var veggie_family[1] = ['cauliflower','broccoli','brussel sprouts','cabbage','kale','kohlrabi','rutabaga','turnips',
+		'mustard greens']
+	}
+
+	function food_cooking_methods(){
+//function used to explain how different methods of cooking affect food molecular structure
+	}
+}

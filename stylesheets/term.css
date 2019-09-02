@@ -1,0 +1,13 @@
+body {
+	background: rgba(75,150,0,1);
+	background-image: url("https://78.media.tumblr.com/579cc56a2a59ad71cf1c5afb0f0005fc/tumblr_ov7siwHIkP1ue08b9o1_500.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.terminal{
+	text-align: center;
+	color: rgba(0,150,0,1);
+}
+.term_in{
+}

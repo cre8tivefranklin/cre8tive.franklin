@@ -1,0 +1,12 @@
+each calculator key is given the id of num
+num is given an eventlistener
+for loop will be used to iterate through numbers
+
+function calc(){
+//var num is given the value 0, num can be any value between 0-9, num can be incremented
+	for (var num = 0, num < 10, num++){
+		if (){
+			
+		}
+	}
+}

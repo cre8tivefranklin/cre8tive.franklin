@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(230, 230, 255);
+  background-color: rgb(255, 255, 255);
 }
 .intro{
   background: url('../icons/computer-icon.png');
@@ -21,25 +21,56 @@ body{
   font-size: 20px;
 }
 .web-apps{
-  heght: 500px;
   margin-top: 25px;
   z-index: 1;
   text-align: center;
 }
-.calculator-app, .recipe-app, .calendar-app{
+.recipe-app{
+	background-color: rgb(240,240,245);
+	margin: 10px;
+	padding: 10px;
+	height: 100%;
+}
+.calculator-app, .calendar-app{
   height: 100%;
-  background-color: rgb(220,220,245);
+  background-color: black;
   margin: 10px;
   padding: 10px;
 }
-.calculator, button{
+.calculator-app button{
+	background-color: black;
+}
+.calendar-app:hover{
+	
+}
+.calculator, input{
   height: 40px;
 }
 .calc_out{
+	font-size: 30px;
+	font-weight: bold;
   background-color: white;
+  text-align: right;
   color: black;
-  height: 25px;
+  height: 50px;
 }
+.cal_container{
+	  background-color: white;
+	  border-radius: 2%;
+}
+.cal_highlight{
+	background-color: white;
+	
+}
+.month,.date,.day{
+	color: black;
+	font-size: 50px;
+}
+.date{
+}
+.day{
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -65,8 +96,9 @@ input[type=submit]:hover {
 }
 
 .container {
+	border: 1px solid black;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 20px;
 }
 .calc-btn{

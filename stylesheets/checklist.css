@@ -1,0 +1,11 @@
+.header{
+  text-align: left;
+}
+.list{
+  margin-left: 25px;
+}
+.col1{
+  height: 100%;
+  border: solid black 1px;
+
+}
