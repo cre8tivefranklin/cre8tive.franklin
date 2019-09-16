@@ -13,8 +13,30 @@
   </style>
 
   <body>
-	<div class='intro col-lg-12'>
-		<p>Ambrosia</p>
+	<div class='intro col-md' id='intro'>
+		<p class ='title'>Ambrosia</p>
+	</div>
+	
+	<div class='col-md content' id='content'>
+		<div class='recipe-dev row'>
+			<div class='col-md-3 criteria'>
+				<h2>What flavors do you enjoy?</h2>
+				<label class="">placeholder
+				  <input class='checkbox' type="checkbox">
+				</label>
+				<h2>What kind of texture do you prefer?</h2>
+				<label class="">placeholder
+				  <input class='checkbox' type="checkbox">
+				</label>
+				<h2>What nutrients do you need?</h2>
+				<label class="">placeholder
+				  <input class='checkbox' type="checkbox">
+				</label>
+			</div>
+			<div class='col-md-6 recipe'>
+				<h1>Recipe developed by Ambrosia</h1>
+			</div>
+		</div>
 	</div>
   
 	<div class='left-column'>
@@ -23,6 +45,9 @@
 	<div class='amb-result'>
 	</div>
   
+	<script src='scripts/jQuery_CDN.js'>
+	</script>
     <script src='scripts/ambrosia.js'>
 	</script>
+	
   </body>

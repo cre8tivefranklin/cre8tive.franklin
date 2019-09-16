@@ -6,7 +6,7 @@ function A(){
 
 
 		var flavor = ['salty','sweet','bitter','zesty','tart','spicy','juicy','bland',
-		'plain',]
+		'plain']
 		var texture = ['chewy','tender','flaky','hard','soft','moist','dry']
 //nutrtion correlates directly with flavor in many cases
 		var nutrition = ['protein','sodium','magnesium','potassium','sugar','citrus',]
@@ -26,7 +26,7 @@ function A(){
 //veggie family is the variable array that specifies the types of food such as alliums, brassica, etc
 		var veggie_family = ['alliums','brassica']
 
-//alliums is indexed below and veggies belonging to this groupo are stored within an array		
+//alliums is indexed below and veggies belonging to this group are stored within an array		
 		var veggie_family[0] = ['chives','garlic','leeks','onions','shallots']
 		
 //brassica is indexed below and veggies belonging to this group are stored within an array

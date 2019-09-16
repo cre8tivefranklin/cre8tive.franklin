@@ -1,5 +1,24 @@
 .intro{
 	text-align: center;
-	font-size: 200px;
 	color: #82172B;
+	height: 100%;
+}
+.title{
+	font-size: 150px;
+	margin: 100px;
+}
+.content{
+	top: 0px;
+	position: absolute;
+	background-color: rgba(200,140,140,.25);
+	display: none;
+	height: 100%;
+	overflow: auto;
+}
+.checkbox{
+	height: 20px;
+	width: 20px;
+}
+label{
+	padding: 50px;
 }

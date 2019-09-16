@@ -16,7 +16,7 @@ window.onload = function() {
 		break;
 		case 1:
 			day = "Monday";
-			daily_msg = "Who has the monday blues?";
+			daily_msg = "Who has the Monday blues?";
 		break;
 		case 2:
 			day = "Tuesday";
