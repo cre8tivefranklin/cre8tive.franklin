@@ -2,22 +2,23 @@
 def recipe_algorithm():
     
     def flavor_input():
-        #use combinatorics to find combinations of all flavors
+        #the flavor variable is assigned an array of different flavors
         flavor = ['salty','sweet','bitter','zesty','tart','spicy','juicy','bland',
             'plain','peppery']
         print('Here is a list of different flavors')
         print(flavor)
-        print('Input your favorite one at a time')
+        print('Which flavor(s) do you enjoy most?\n input one by one')
         prompt_flavor = input()
-        if prompt_flavor == flavor[0] or flavor [1] or flavor[2] or flavor[3] or flavor[4] or flavor[5] or flavor[6] or flavor[7] or flavor[8]:
-            print("So " + prompt_flavor )
-        else:
-            print('type one of the options please!')
+        if prompt_flavor == flavor[0]:
+            print('Salty? I see...')
+        if prompt_flavor == flavor[1]:
+            print('Sweet? SWEET!')
+        
         
         prompt_texture = input('What kind of texture do you prefer?\n')
         texture = ['chewy','tender','flaky','hard','soft','moist','dry']
         
-        prompt_nutrition = input('What kind of nutrition do you need\n?')        
+        prompt_nutrition = input('What kind of nutrition do you need?\n')        
         nutrition = ['protein','sodium','magnesium','potassium','sugar','citrus']
         
 
