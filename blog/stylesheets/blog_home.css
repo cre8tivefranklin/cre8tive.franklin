@@ -33,3 +33,10 @@ body{
 	bottom: 0px;
 	background-color: rgba(0,0,0,.50);
 }
+
+@media only screen and (max-width: 600px) {
+	.featured div{
+		top: 0px;
+		left: 0px;
+	}
+}
