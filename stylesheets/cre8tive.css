@@ -2,7 +2,7 @@ body{
   background-color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
 }
-a{
+a:hover{
 	text-decoration: none;
 }
 ::-webkit-scrollbar {
@@ -177,8 +177,7 @@ input[type=submit]:hover {
 	width: 25px;
   }
   .headline{
-	  text-align: bottom;
-	  position: relative;
+	  top: 0%;
   }
   .calculator-app{
 	  width: 100%;
