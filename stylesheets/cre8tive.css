@@ -2,6 +2,9 @@ body{
   background-color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
 }
+a{
+	text-decoration: none;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -160,4 +163,21 @@ input[type=submit]:hover {
 .headline{
 	position: absolute;
 	bottom: 50%;
+}
+
+/* the following code is for the mobile site */
+
+@media only screen and (max-width: 600px) {
+  .ig{
+	height: 50px;
+	width: 50px;
+  }
+  .linkedin{
+	height: 25px;
+	width: 25px;
+  }
+  .headline{
+	  text-align: bottom;
+	  position: relative;
+  }
 }
