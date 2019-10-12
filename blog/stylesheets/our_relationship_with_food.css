@@ -5,13 +5,18 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 .main{
-	background-color: white;
+	background-color: black;
 	height: 100%;
 	margin-top: 350px;
 	color: black;
 }
-.main h1,article{
+.main h1,article,footer{
 	text-align: left;
+	background-color: white;
+	padding: 25px;
+}
+footer{
+	margin-top: 25px;
 }
 article p{
 	padding: 20px;
