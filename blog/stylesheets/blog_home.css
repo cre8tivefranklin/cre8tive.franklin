@@ -47,6 +47,9 @@ a:hover{
 .post_row_1{
 	height: 100%;
 }
+.post1 h1{
+	text-align: center;
+}
 .post1{
 	background-image:url('../images/poblano_chicken_and_noodles.jpg');
 	background-repeat: no-repeat;
