@@ -31,6 +31,9 @@ a:hover{
 	color: white;
 	cursor: pointer;
 }
+.featured h1{
+	text-align: center;
+}
 .featured:hover, .post1:hover{
 	filter: brightness(120%);
 }
