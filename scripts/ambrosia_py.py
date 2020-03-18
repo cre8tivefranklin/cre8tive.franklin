@@ -1,40 +1,32 @@
 
-def recipe_algorithm():
+def food_data():
+    #the following variables are arrays of different flavors textures and
+    #nutrients in food
+    #flavor[0] is the subset of 0 in the flavor array containing the words
+    #to describe acerbic flavors
     
-    def flavor_input():
-        #the flavor variable is assigned an array of different flavors
-        flavor = ['salty','sweet','bitter','zesty','tart','spicy','juicy','bland',
-            'plain','peppery']
-        print('Here is a list of different flavors')
-        print(flavor)
-        print('Which flavor(s) do you enjoy most?\n input one by one')
-        prompt_flavor = input()
-        if prompt_flavor == flavor[0]:
-            print('Salty? I see...')
-        if prompt_flavor == flavor[1]:
-            print('Sweet? SWEET!')
-        
-        
-        prompt_texture = input('What kind of texture do you prefer?\n')
-        texture = ['chewy','tender','flaky','hard','soft','moist','dry']
-        
-        prompt_nutrition = input('What kind of nutrition do you need?\n')        
-        nutrition = ['protein','sodium','magnesium','potassium','sugar','citrus']
-        
+    flavor =['salty', 'sweet', 'sour', 'bitter', 'umami']
+    flavor[0] = ['beets', 'celery', 'carrots', 'spinach', 'chard', 'meat']
+    
+    texture  = ['crisp','tender','soft']
+    
+    nutrients = ['sodium','potassium','magnesium','protein','sugar']
 
-        #the array for various protein types
-        nutrtion[0] = ['gluten','whey','soy']
+    #some indices in the arrays above are assigned arrays of values
+    #nutrients[3] is an array of the different types of proteins that
+    #exist in food
+    nutrients[3] = ['whey','gluten','soy']
+    
 
-        #the arrays of different veggies and their families
-        veggie_family = ['alliums','brassica']
-        veggie_family[0] = ['chives','garlic','leeks','onions','shallots']
-        veggie_family[1] = ['cauliflower','broccoli','brussel sprouts','cabbage','kale','kohlrabi','rutabaga','turnips',
-		'mustard greens']
+    def food_int():    
+        flav_int = input('What kind of flavor do you enjoy?\n')
+        if flav_int == 'salty':
+            print('I recommend the following veggies\n', *flavor[0], '\nEach of these are rich in sodium')
+            flav_choice = input('Whcih do think you''d enjoy most?\n')
+            if flav_choice == 'beets' or 'carrots':
+                print('Nice! \n', 'You should try making a salad out of this!')
+        elif flav_int == flavor[6]:
+                print('aromatic chickden is my recomdation')        
+    food_int()
 
-        
-        #if prompt_flavor == flavor[0]:
-            #print('So you like salty food?')
-        
-    flavor_input()
-
-recipe_algorithm()
+food_data()

@@ -1,0 +1,50 @@
+ function food_data
+	
+	####the food data function contains all data regarding food
+	##flavor texture and nutrients are sets containing values pertaining to ambrosia's criteria for food
+	##flavor is a set of various terms to describe flavor same for texture and nutrients
+	
+		flavor = [salty, sweet, sour, bitter, umami]
+		#flavor array consists of the 5 generalizations of flavor
+		#Each indice will contain arrays consisting of suggested ingredients
+		
+		#flavor[0] will be an array of ingredients high in sodium
+		flavor[0] = [beets, celery, carrots, spinach, chard, meat]
+		#the following array is for meats
+		flavor[0[5]] = [chicken, beef, lamb, fish, pork]
+		
+		
+		
+		texture = []
+		nutrients = []
+		
+		vegetarian_int = input('are you vegetarian?')
+		vegan_int = input('are you vegan?')
+		
+	##the following function is for required input
+		function food_int
+			flav_int = input('what kind of flavors do you enjoy?')
+			text_int = input('what kind of texture do you enjoy?')
+			nutri_int = input('what nutrition do you need?')
+			
+			
+			
+		##parameters will be given arguments in relevence to their names
+		
+		function suggest_recipe(marinades, sauces, dressings, garnishes)
+		
+			#the following arrays are sets containing recipes each indice contains recipe data
+				regular_recipe = ['Aromatic Chicken', 'Mirepoix']
+				vegetarian_recipe = [regular_recipe[1]]
+				vegan_recipe = [regular_recipe[1]]
+				
+				regular_recipe[0] = 'Marinate chicken with aromatic oil, cumin, and salt'
+				
+		recipe_arg = [m, s, d, g]
+		recipe arg[0] = [basil marinade, aromatic oil]
+		recipe_arg[0[0]] = 'blend basil herbs with parsley use canola oil for emulsificsation.'
+		
+		#each argument given to suggest_recipe is an indice from the recipe_arg array
+		suggest_recipe(recipe_arg[0], recipe_arg[1], recipe_arg[2], recipe_arg[3])
+		
+		
