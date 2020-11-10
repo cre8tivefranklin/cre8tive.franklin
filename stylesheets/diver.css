@@ -1,0 +1,30 @@
+
+
+.portfolio h3{
+    z-index:2;
+    position:absolute;
+    top:0.5em;
+    color:red;
+    font-family:monospace;
+	background-color:  #ffe6e6;
+	font-size: 40px;
+	cursor: pointer;
+}
+.net-diver{
+	background-color: white;
+	color: red;
+}
+.net-div{
+	position: abosolute;
+	top: 0px;
+	z-index: 1;
+	height: 100%;
+	display: none;
+	background-color: rgba(0,0,0,.5);
+}
+.cover{
+	height: 720px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
