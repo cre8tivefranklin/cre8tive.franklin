@@ -55,5 +55,9 @@
 		height: 720px;
 		z-index: 0;
 	}
+	.net p{
+		position: relative;
+		margin-top: -100px;
+	}
 	
 }
