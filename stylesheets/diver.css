@@ -5,8 +5,6 @@
 }
 .net h1{
     z-index:2;
-    position:absolute;
-    top:0.5em;
     color:red;
     font-family:monospace;
 	background-color:  #ffe6e6;
@@ -17,12 +15,10 @@
 }
 .net{
 	position: relative;
+	z-index:2;
 }
 .net p {
 	color:red;
-	z-index:2;
-	bottom: 0px;
-    position:absolute;
 	font-family:monospace;
 	font-size: 20px;
 	background-color: rgba(255, 230, 230, .9);
