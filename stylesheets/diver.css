@@ -55,15 +55,5 @@
 		height: 720px;
 		z-index: 0;
 	}
-	.net h1{
-		position: relative;
-	}
-	.net p {	
-		color:red;
-		font-family:monospace;
-		font-size: 15px;
-		background-color: rgba(255, 230, 230, .9);
-		margin-top: 20px;
-	}
 	
 }
