@@ -53,3 +53,9 @@
 	position: fixed;
 	top: 10%;
 }
+
+@media only screen and (max-width: 600px){
+	.dias{
+		left: 0px;
+	}
+}
