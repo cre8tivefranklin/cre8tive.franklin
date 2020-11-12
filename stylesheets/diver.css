@@ -15,6 +15,9 @@
 #synopsis{
 	font-size: 20px;
 }
+.net{
+	position: relative;
+}
 .net p {
 	color:red;
 	z-index:2;
