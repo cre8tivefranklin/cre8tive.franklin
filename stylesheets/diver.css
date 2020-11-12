@@ -3,27 +3,27 @@
 #home{
 	position: fixed;
 }
-.net h1{
-    z-index:2;
-    color:red;
-    font-family:monospace;
-	background-color:  #ffe6e6;
-	font-size: 40px;
-}
 #synopsis{
 	font-size: 20px;
 }
-.net{
-	position: relative;
-	z-index:2;
+.net h1{
+	top: 0px;
+	position: absolute;
+    color:red;
+    font-family:monospace;
+	background-color: rgba(255, 230, 230, .9);
+	font-size: 40px;
+	z-index: 5;
 }
+
 .net p {
+	bottom: 0px;
+	position: absolute;
 	color:red;
 	font-family:monospace;
 	font-size: 20px;
 	background-color: rgba(255, 230, 230, .9);
 }
-
 .net-diver{
 	background-color: white;
 	color: red;
