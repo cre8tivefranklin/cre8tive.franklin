@@ -22,6 +22,7 @@ for(var x = 0; x < columns; x++)
 //drawing the characters
 function draw()
 {
+	
 	//Black BG for the canvas
 	//translucent BG to show trail
 	ctx.fillStyle = "rgba(255, 255, 255, .05)";

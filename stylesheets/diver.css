@@ -11,21 +11,20 @@
     font-family:monospace;
 	background-color:  #ffe6e6;
 	font-size: 40px;
-	cursor: pointer;
 }
-.synopsis{
-	z-index: 1;
-    position: absolute;
-    color: red;
-    font-family:monospace;
-	background-color:  #ffe6e6;
-	padding: 5px;
-	font-size: 15px;
-	overflow: scroll;
+#synopsis{
+	font-size: 20px;
 }
-.synopsis p {
-	font-size: 18px;
+.net p {
+	color:red;
+	z-index:2;
+	bottom: 0px;
+    position:absolute;
+	font-family:monospace;
+	font-size: 20px;
+	background-color: rgba(255, 230, 230, .9);
 }
+
 .net-diver{
 	background-color: white;
 	color: red;
@@ -39,24 +38,35 @@
 	background-color: rgba(0,0,0,.5);
 }
 .cover{
-	height: 720px;
-	position: absolute;
-	bottom: 0px;
-	z-index: 1;
-}
-.dias{
-	height: 720px;
-	position: absolute;
-	top: 0px;
-	z-index: 1;
-}
-.synopsis{
+	height: 820px;
 	position: fixed;
-	top: 10%;
+	bottom: 0px;
+	z-index: 0;
+}
+
+#c{
+	z-index: -1;
 }
 
 @media only screen and (max-width: 600px){
-	.dias{
-		display: none;
+	#c{
+		height: 700px;
 	}
+	.cover{
+		height: 720px;
+		z-index: 0;
+	}
+	.net h1{
+		position: relative;
+	}
+	.net p {	
+		color:red;
+		position:absolute;
+		bottom: 0px;
+		font-family:monospace;
+		font-size: 15px;
+		background-color: rgba(255, 230, 230, .9);
+		margin-top: 20px;
+	}
+	
 }
