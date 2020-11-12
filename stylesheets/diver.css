@@ -1,6 +1,9 @@
 
 
-.portfolio h3{
+#home{
+	position: fixed;
+}
+.net h1{
     z-index:2;
     position:absolute;
     top:0.5em;
@@ -9,6 +12,18 @@
 	background-color:  #ffe6e6;
 	font-size: 40px;
 	cursor: pointer;
+}
+.synopsis{
+	z-index: 1;
+    position: absolute;
+    color: red;
+    font-family:monospace;
+	background-color:  #ffe6e6;
+	padding: 5px;
+	font-size: 15px;
+}
+.synopsis p {
+	font-size: 18px;
 }
 .net-diver{
 	background-color: white;
@@ -27,4 +42,14 @@
 	position: absolute;
 	bottom: 0px;
 	z-index: 1;
+}
+.dias{
+	height: 720px;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+.synopsis{
+	position: fixed;
+	top: 10%;
 }
